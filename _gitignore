@@ -1,0 +1,7 @@
+apache-log4j-*
+httpcomponents-client-*
+*.class
+*.jar
+!hamcrest-core-1.3.jar
+!junit-4.11.jar
+com/openmindnetworks/golgigreetingandroidtest/gen

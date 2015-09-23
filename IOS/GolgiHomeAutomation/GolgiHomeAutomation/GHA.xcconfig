@@ -1,0 +1,10 @@
+//
+//  GHA.xcconfig
+//  GolgiHomeAutomation
+//
+//  Created by Derek Doherty on 09/10/2014.
+//  Copyright (c) 2014 Derek Doherty. All rights reserved.
+//
+
+
+OTHER_LDFLAGS = -L${PROJECT_DIR}/${PROJECT_NAME} -ObjC -lsqlite3.0 -lGolgi

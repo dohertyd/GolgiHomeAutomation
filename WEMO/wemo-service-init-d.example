@@ -1,0 +1,27 @@
+#! /bin/sh
+
+case "$1" in
+    start)
+        echo -n "Starting Wemo server: "
+        su - wemo -c /path/to/wemo/wemo_start.sh
+        echo "done."
+        ;;
+    stop)
+        echo -n "Stopping Wemo server: "
+        /usr/bin/killall -KILL java
+        echo "done."
+        ;;
+    restart)
+        echo -n "Restarting Wemo server: "
+        /usr/bin/killall -KILL java
+	sleep 2
+        su - wemo -c /path/to/wemo/wemo_start.sh
+        echo "done."
+        ;;
+    *)
+        echo "Usage: /etc/init.d/wemo-service {start|stop|restart}"
+        exit 1
+        ;;
+esac
+
+exit 0

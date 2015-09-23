@@ -1,0 +1,19 @@
+WemoServer 5.5.5
+WemoServer starting with 1 wemos known...
+2014.10.17 16:20:50.403 WeMo Switch Socket-1_0-221325K110001E @ http://10.22.22.1
+2014.10.17 16:20:50.444 WeMo Switch Socket-1_0-221325K110001E EC1A59A25310|WeMo_WW_2.00.6395.PVT|0|49152|0|WeMo Switch
+2014.10.17 16:20:50.668 WeMo Switch Socket-1_0-221325K110001E =off
+2014.10.17 16:20:50.932 WemoServer 5.5.5 starting @10.22.22.2:4033
+2014.10.17 16:20:50.935 System time: 17 October 2014 16:20:50 IST
+2014.10.17 16:20:51.012 WemoServer on port 4033 Secured=true connected and open for business
+2014.10.17 16:20:51.115 EventServer on port 4030 Secured=false connected and open for business
+2014.10.17 16:20:51.119 WemoServer 5.5.5 started successfully
+Secure Clients
+==============
+Wemo Devices
+============
+WeMo Switch (Socket-1_0-221325K110001E) @ http://10.22.22.1
+Wemo Rules
+==========
+WemoServer starting with 0 rules defined...
+WemoServer running...
